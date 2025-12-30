@@ -1,0 +1,8 @@
+[build]
+  functions = "."
+  publish = "."
+
+[[redirects]]
+  from = "/generate-link"
+  to = "/.netlify/functions/generate-link"
+  status = 200
