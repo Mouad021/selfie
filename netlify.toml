@@ -1,8 +1,7 @@
 [build]
-  functions = "."
-  publish = "."
+  functions = "netlify/functions"
 
 [[redirects]]
-  from = "/generate-link"
-  to = "/.netlify/functions/generate-link"
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
   status = 200
